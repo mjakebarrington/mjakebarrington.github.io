@@ -7,26 +7,43 @@
     <title>Jake Barrington's Portfolio</title>
     <link rel="stylesheet" type="text/css" href="styles.css" />
     <link rel="stylesheet" type="text/css" href="navbar.css" />
-    <link href="https://fonts.googleapis.com/css?family=Montserrat&display=swap" rel="stylesheet"> 
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body>
     <!-- Sticky Nav Bar -->
     <div id="navbar">
       <div id="menu">
-        <a class="navButton" href="#about">About Me</a>
-        <a class="navButton" href="#portfolio">My Portfolio</a>
-        <a class="navButton" href="#contact">Contact</a>
+        <a class="navButton" href="#landing" id="land">Home</a>
+        <a class="navButton" href="#about" id="aboot">About Me</a>
+        <a class="navButton" href="#portfolio" id="port">My Portfolio</a>
+        <a class="navButton" href="#contact" id="cont">Contact</a>
       </div>
     </div>
     <!-- Animation and first page content -->
-    <div class="bg"></div>
-    <div class="bg bg2"></div>
-    <div class="bg bg3"></div>
-    <div class="content">
-      <h1>Hi, I'm Jake Barrington, a web developer.</h1>
-    </div>
+    <section id="landing">
+      <div class="bg"></div>
+      <div class="bg bg2"></div>
+      <div class="bg bg3"></div>
+      <div class="content">
+        <h1>Hi, I'm Jake Barrington, a web developer.</h1>
+      </div>
+    </section>
     <!-- About Page Content -->
+    <section id="about">
+      <p>Test About</p>
+    </section>
     <!-- Portfolio Content -->
+    <section id="portfolio">
+      <p>Test Portfolio</p>
+    </section>
     <!-- Contact Content -->
+    <section id="contact">
+      <p>Test Contact</p>
+    </section>
+    <script src="./script.js"></script>
+    <script src="./nav.js"></script>
   </body>
 </html>
