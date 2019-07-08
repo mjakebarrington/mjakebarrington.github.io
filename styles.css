@@ -72,12 +72,34 @@ a#resume {
 
 #about {
   opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(141,147,69);
 }
 
 #portfolio {
   opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(141,147,69);
 }
 
 #contact {
   opacity: 0;
+  height: 100%;
+  width: 100%;
+  background: rgb(141,147,69);
+}
+
+.secspace {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  background: whitesmoke 50%;
+  border-radius: 10px;
+}
+
+.innersecspace {
+  width: 30%;
+  padding: 10px;
 }
