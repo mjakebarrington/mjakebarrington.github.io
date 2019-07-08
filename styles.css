@@ -55,7 +55,12 @@ section {
   margin: auto;
   position: absolute;
   top: 50px;
+  left: auto;
+  right: auto;
   z-index: -1;
+  transition: opacity .75s ease-in-out;
+  -moz-transition: opacity .75s ease-in-out;
+  -webkit-transition: opacity .75s ease-in-out;
 }
 
 a#resume {
@@ -63,4 +68,16 @@ a#resume {
   text-decoration: none;
   border-radius: 3px;
   background: #be552e;
+}
+
+#about {
+  opacity: 0;
+}
+
+#portfolio {
+  opacity: 0;
+}
+
+#contact {
+  opacity: 0;
 }

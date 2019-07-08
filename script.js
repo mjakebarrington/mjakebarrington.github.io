@@ -1,32 +1,32 @@
-document.getElementById('landing').style.visibility='visible';
-document.getElementById('about').style.visibility='hidden';
-document.getElementById('portfolio').style.visibility='hidden';
-document.getElementById('contact').style.visibility='hidden';
+document.getElementById('landing').style.opacity='1';
+document.getElementById('about').style.opacity='0';
+document.getElementById('portfolio').style.opacity='0';
+document.getElementById('contact').style.opacity='0';
 
 document.getElementById('land').addEventListener("click", () => {
-    document.getElementById('landing').style.visibility='visible';
-    document.getElementById('about').style.visibility='hidden';
-    document.getElementById('portfolio').style.visibility='hidden';
-    document.getElementById('contact').style.visibility='hidden';
+    document.getElementById('landing').style.opacity='1';
+    document.getElementById('about').style.opacity='0';
+    document.getElementById('portfolio').style.opacity='0';
+    document.getElementById('contact').style.opacity='0';
 })
 
 document.getElementById('aboot').addEventListener("click", () => {
-    document.getElementById('landing').style.visibility='hidden';
-    document.getElementById('about').style.visibility='visible';
-    document.getElementById('portfolio').style.visibility='hidden';
-    document.getElementById('contact').style.visibility='hidden';
+    document.getElementById('landing').style.opacity='0';
+    document.getElementById('about').style.opacity='1';
+    document.getElementById('portfolio').style.opacity='0';
+    document.getElementById('contact').style.opacity='0';
 })
 
 document.getElementById('port').addEventListener("click", () => {
-    document.getElementById('landing').style.visibility='hidden';
-    document.getElementById('about').style.visibility='hidden';
-    document.getElementById('portfolio').style.visibility='visible';
-    document.getElementById('contact').style.visibility='hidden';
+    document.getElementById('landing').style.opacity='0';
+    document.getElementById('about').style.opacity='0';
+    document.getElementById('portfolio').style.opacity='1';
+    document.getElementById('contact').style.opacity='0';
 })
 
 document.getElementById('cont').addEventListener("click", () => {
-    document.getElementById('landing').style.visibility='hidden';
-    document.getElementById('about').style.visibility='hidden';
-    document.getElementById('portfolio').style.visibility='hidden';
-    document.getElementById('contact').style.visibility='visible';
+    document.getElementById('landing').style.opacity='0';
+    document.getElementById('about').style.opacity='0';
+    document.getElementById('portfolio').style.opacity='0';
+    document.getElementById('contact').style.opacity='1';
 })
