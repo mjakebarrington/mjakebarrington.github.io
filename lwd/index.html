@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Learning Web Development</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header><h1 id="title">Learning Web Dev</h1></header>
+
+    <main>
+      <!-- Site introduction -->
+      <div id="intro"></div>
+      <!-- / Site Introduction -->
+
+      <!-- Navigation -->
+      <div class="links">
+        <ol>
+          <li><a href="#jsintro">Introduction to JavaScript</a></li>
+        </ol>
+      </div>
+      <!-- / Navigation -->
+
+      <!-- Introduction to JavaScript Section -->
+      <div id="jsintro">
+        <h2>JavaScript</h2>
+        <p>
+          HTML defines the <em>content</em> of a webpage. CSS defines the
+          <em>presentation</em> of a site. Finally, JavaScrit defines the
+          <em>functionality</em> of our pages. It is important to learn JavaScript so we can build responsive, dynamic, and mobile friendly websites.<br>
+          <h2>Lexical Structure</h2>
+          <ul>
+            <li>JavaScript programs are written using the <em>unicode</em> character set.</li>
+            <li>JavaScript is <em>case-sensitive</em>.</li>
+            <code>
+              <pre>
+<span class="key">let</span> <span class="var">name</span> = <span class="str">"Jake"</span>;
+<span class="key">let</span> <span class="var">Name</span> = <span class="str">"Mike"</span>;
+<span class="key">let</span> <span class="var">NAME</span> = <span class="str">"I actually have 2 names..."</span>;
+<span class="cmt">// All three of the above variables are entirely different.</span></pre>
+            </code>
+            <li>JavaScript ignores spaces that appear between tokens.</li>
+            <code><pre><span class="key">let</span> <span class="var">myName</span>=<span class="str">"Jake"</span>;
+<span class="cmt">// While the above code is technically valid...</span>
+<span class="key">let</span> <span class="var">myName</span> = <span class="str">"Jake"</span>;
+<span class="cmt">// Adding spaces makes code more readable</span></pre></code>
+          </ul>
+        </p>
+      </div>
+      <!-- / JavaScript Intro Section -->
+    </main>
+
+    <footer>
+      Site Under Construction...
+      Theme based on the <a href="https://code.visualstudio.com/">Visual Studio Code</a> default dark theme.
+    </footer>
+  </body>
+</html>
