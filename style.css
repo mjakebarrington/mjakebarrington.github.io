@@ -46,3 +46,8 @@ p {
     line-height: 20px;
     letter-spacing: 1.7px;
 }
+
+.tborder {
+  border-top: 3px solid #68829e;
+  padding-top: 10px;
+}
