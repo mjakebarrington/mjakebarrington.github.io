@@ -15,7 +15,6 @@ body {
   width: 70%;
   margin: 20px auto;
   border-top: 3px solid #68829e;
-  font-family: "Montserrat", sans-serif;
 }
 
 #nav {
@@ -50,4 +49,14 @@ p {
 .tborder {
   border-top: 3px solid #68829e;
   padding-top: 10px;
+}
+
+.flexcontainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#flex1, #flex2, #flex3 {
+  border: 5px solid red;
+  width: 400px;
 }
