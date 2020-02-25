@@ -1,0 +1,38 @@
+body {
+  color: rgb(64, 64, 64);
+  width: 75%;
+  margin: auto;
+  line-height: 20px;
+  letter-spacing: 1px;
+}
+
+a:link {
+  color: rgb(58, 124, 156);
+  text-decoration: none;
+}
+
+a:visited {
+  color: rgb(191, 135, 56);
+  text-decoration: none;
+}
+
+a:hover {
+  color: rgb(100, 27, 33);
+  text-decoration: underline;
+}
+
+a:active {
+  color: rgb(40, 94, 118);
+}
+
+/* Make titles softer */
+
+.title {
+  color: rgb(112, 112, 112);
+}
+
+/* Future: Use as bg color when building menu */
+
+.menu {
+    background-color: rgb(40, 94, 118);
+}
