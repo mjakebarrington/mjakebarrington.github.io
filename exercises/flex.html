@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Playing with flexbox</title>
+</head>
+<body>
+    <h1>Flexbox Playground</h1>
+    <h4>Flex Container</h4>
+    <div style="
+            display: flex;
+            flex-direction: row;
+            border: 2px solid black;
+    ">
+        <div style="background-color: cadetblue;">Div 1 has more text!</div>
+        <div style="
+            background-color: blueviolet;
+            flex: 1;
+        ">Flex 1</div>
+    </div>
+
+    <h4>Example Two</h4>
+    <div style="
+        display: flex;
+        justify-content: center;
+        align-items: stretch;
+        border: 1px solid red;
+        height: 65px;
+    ">
+        <!-- FIRST DIV -->
+        <div style="
+            background-color: blue;
+            width: 100px;
+        ">
+            1st DIV CONTENT HERE
+        </div>
+
+        <!-- SECOND DIV -->
+        <div style="
+            background-color: red;
+            width: 100px;
+        ">
+            2nd DIV CONTENT HERE
+        </div>
+
+        <!-- THIRD DIV -->
+        <div style="
+            background-color: green;
+            width: 100px;
+        ">
+            3rd DIV CONTENT HERE
+        </div>
+    </div>
+
+
+    <h4>Alignment</h4>
+    <div style="
+        display: flex;
+        align-items: strech;
+        justify-content: space-between;
+        border: 1px solid red;
+        height: 65px;
+    ">
+        <!-- FIRST DIV -->
+        <div style="
+            background-color: blue;
+            width: 100px;
+        ">
+            1st DIV CONTENT HERE
+        </div>
+
+        <!-- SECOND DIV -->
+        <div style="
+            background-color: red;
+            width: 100px;
+        ">
+            2nd DIV CONTENT HERE
+        </div>
+
+        <!-- THIRD DIV -->
+        <div style="
+            background-color: green;
+            width: 100px;
+        ">
+            3rd DIV CONTENT HERE
+        </div>
+            4th Div Content HERE
+        </div>
+    </div>
+</body>
+</html>
